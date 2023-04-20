@@ -4,6 +4,7 @@
   "description": "Admin do catalogo de videos",
   "main": "index.js",
   "scripts": {
+    "ts-node": "ts-node",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
