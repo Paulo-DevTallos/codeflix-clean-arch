@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "ts-node": "ts-node",
+    "build": "tsc",
+    "start": "node dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
