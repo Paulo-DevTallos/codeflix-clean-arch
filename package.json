@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/Paulo-DevTallos/codeflix-clean-arch/issues"
   },
-  "homepage": "https://github.com/Paulo-DevTallos/codeflix-clean-arch#readme"
+  "homepage": "https://github.com/Paulo-DevTallos/codeflix-clean-arch#readme",
+  "devDependencies": {
+    "@types/node": "^18.15.12",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
 }
