@@ -4,7 +4,7 @@ FROM node:16-alpine
 
 WORKDIR /home/node/app
 
-CMD [ "tail", "-f", "/dev/null" ]
+CMD [ "sh", "-c", "npm install && tail -f /dev/null" ]
 
 # imagens slim e alpine são comumente utilizadas para produção
 # recomendado: carregar imagens originais 
