@@ -15,7 +15,7 @@ Campos da entidade:
         date created_at
 
 Operações da entidade categoria
-        create()
+        create() - OK
         update()
         activate()
         deactivate()
