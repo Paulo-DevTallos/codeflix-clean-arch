@@ -7,7 +7,7 @@
     "ts-node": "ts-node",
     "build": "tsc",
     "start": "node dist",
-    "test": "jest",
+    "test": "jest --watch",
     "clean:tsc": "rm ./dist/tsconfig.tsbuildinfo"
   },
   "repository": {
