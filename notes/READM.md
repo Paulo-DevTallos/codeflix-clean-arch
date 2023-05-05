@@ -45,3 +45,12 @@ Casos de teste de categoria
   Criar uma categorias configurando datas e is_actives
 
 
+</hr>
+Estudar sobre limite parcial e limite arquitetural conceito do clean arch
+* Criar camadas de entidades e regras de negocios de forma totalmente puras pode ter custos de tempo, manutenção e até financeiro muito elevados.
+  No caso da implementação de um UUID manualmente o custo imediato esta ligado a testes, criação de recursos extras para exportas o recurso...
+
+Estudar sobre objetos de valores do DDD (Ele é imutável e é como se fosse um novo tipo, deve ser criado como uma classe)
+a nomenclatura para meu padrão de criação de objetos de valores (file-entity.vo.ts)
+
+Criando pasta como @seedwork => é uma especie de repositório, agnostica a frameworks fora das camadas de infra da aplicação utilizada como shared
